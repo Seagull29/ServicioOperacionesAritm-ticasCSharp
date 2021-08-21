@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="txt1" HorizontalAlignment="Left" Height="46" Margin="68,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" FontSize="24"/>
+        <TextBox x:Name="txt2" HorizontalAlignment="Left" Height="42" Margin="68,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" FontSize="24"/>
+        <Button x:Name="btnSuma" Content="Suma" HorizontalAlignment="Left" Margin="51,200,0,0" VerticalAlignment="Top" Width="75" AutomationProperties.Name="btnSuma" Click="btnSuma_Click"/>
+        <Button x:Name="btnPot" Content="Potencia" HorizontalAlignment="Left" Margin="51,258,0,0" VerticalAlignment="Top" Width="75" Click="btnPot_Click"/>
+        <Button x:Name="btnResta" Content="Resta" HorizontalAlignment="Left" Margin="188,200,0,0" VerticalAlignment="Top" Width="75" Click="btnResta_Click"/>
+        <Button x:Name="btnSen" Content="Seno" HorizontalAlignment="Left" Margin="188,258,0,0" VerticalAlignment="Top" Width="75" Click="btnSen_Click"/>
+        <Button x:Name="btnMulti" Content="Multiplicar" HorizontalAlignment="Left" Margin="328,200,0,0" VerticalAlignment="Top" Width="75" Click="btnMulti_Click"/>
+        <Button x:Name="btnTan" Content="Tangente" HorizontalAlignment="Left" Margin="328,263,0,0" VerticalAlignment="Top" Width="75" Click="btnTan_Click"/>
+        <Button x:Name="btnDiv" Content="Dividir" HorizontalAlignment="Left" Margin="461,200,0,0" VerticalAlignment="Top" Width="75" Click="btnDiv_Click"/>
+        <Button x:Name="btnInver" Content="Inverso" HorizontalAlignment="Left" Margin="461,258,0,0" VerticalAlignment="Top" Width="75" Click="btnInver_Click"/>
+        <Button x:Name="btnFac" Content="Factorial" HorizontalAlignment="Left" Margin="594,200,0,0" VerticalAlignment="Top" Width="75" Click="btnFac_Click"/>
+        <Button x:Name="btnRaiz" Content="Raiz 2" HorizontalAlignment="Left" Margin="594,258,0,0" VerticalAlignment="Top" Width="75" Click="btnRaiz_Click"/>
+        <Button x:Name="btnRaizn" Content="Raiz -N" HorizontalAlignment="Left" Margin="51,315,0,0" VerticalAlignment="Top" Width="75" Click="btnRaizn_Click"/>
+        <TextBox x:Name="txtResultado" HorizontalAlignment="Left" Height="50" Margin="437,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" FontSize="24"/>
+
     </Grid>
 </Window>
