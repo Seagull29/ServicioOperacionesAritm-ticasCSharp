@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteWeb", "ClienteWeb\ClienteWeb.csproj", "{2076E9EC-DE25-4118-866C-B02C8D31375E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteWPF", "ClienteWPF\ClienteWPF.csproj", "{B3CCF7AD-8511-409A-875E-CAC815775D3C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9F8F9ED6-7BF6-4FD5-9912-E9FBA10E5FE7} = {9F8F9ED6-7BF6-4FD5-9912-E9FBA10E5FE7}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

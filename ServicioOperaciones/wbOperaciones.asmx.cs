@@ -99,13 +99,5 @@ namespace ServicioOperaciones
 
             return Math.Pow(n1, 1 / n2);
         }
-
-
-
-        [WebMethod]
-        public string HelloWorld()
-        {
-            return "Hola a todos";
-        }
     }
 }
